@@ -1,0 +1,89 @@
+.c-section {
+    margin-top: 100px;
+}
+
+.c-section__img {
+    width: 100%;
+}
+
+.c-section__img--m-top {
+    margin-top: 30px;
+}
+
+.c-section__team {
+    color: #626262;
+    margin-left: 30px;
+}
+
+.c-section__business,
+.c-section__business-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.c-section__business a {
+    padding: 12px 25px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FD4E31, #DE2475);
+    color: white;
+    margin: 0 8px;
+}
+
+/*Acordeon*/
+
+.c-acordeon {
+    display: flex;
+
+}
+
+.c-acordeon h4 {
+    padding-left: 20px;
+}
+
+.c-acordeon__sign {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #FD4D35, #DE2475);
+    position: relative;
+}
+
+.c-acordeon__sign i {
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/*Bar porcentajes*/
+.c-bar {
+    background: #eee;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.c-bar-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.c-bar__inside {
+    width: 75%;
+    height: 4px;
+    background: linear-gradient(to right, #FD4E31, #DE2475);
+    border-radius: 50px;
+
+}
+
+.c-bar__inside--html {
+    width: 80%;
+}
+
+.c-bar__inside--php {
+    width: 55%;
+}

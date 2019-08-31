@@ -1,0 +1,13 @@
+a:hover {
+    color: #eee;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}

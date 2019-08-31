@@ -1,0 +1,29 @@
+s.c-head-text {
+    text-align: center;
+}
+
+.c-head-text h3 {
+    color: #DE2478;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.c-head-text h2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.c-head-text .texto {
+    background: linear-gradient(#E9355A, #FD493B);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.c-head-text--left {
+    text-align: left;
+}
+
+.c-head-text__gray {
+    color: #626262;
+}

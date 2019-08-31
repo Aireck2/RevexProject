@@ -1,0 +1,10 @@
+@import url(3.Generic/reset.css);
+@import url(4.Base/Bootstrap-4.3.1/css/bootstrap.css);
+
+@import url(7.Components/nav.css);
+@import url(7.Components/banner.css);
+@import url(7.Components/sections.css);
+@import url(7.Components/button.css);
+@import url(7.Components/head-text.css);
+@import url(7.Components/article.css);
+@import url(7.Components/footer.css);
