@@ -1,4 +1,4 @@
-.c-nav--fixed{
+.c-nav--fixed nav{
     position: fixed;
     left: 0;
     top: 0;
@@ -14,19 +14,39 @@
 	background-color: transparent;
 	width: 100%;
 	min-height: 80px;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
 	transition: .5s;
 	z-index: 9;
 }
-.c-nav a{
+.c-nav .navbar-nav .nav-item a{
     color:  #ffffff;
+    transition: .4s;
+    letter-spacing: .5px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding: 25px 12px 25px 18px;
+    
 }
-.c-nav a:hover{
+.c-nav .navbar-nav .nav-item a:hover{
     color: #fff;
+}
+.c-nav .navbar-nav .nav-item .nav-link:before {
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+    transition: .4s;
+}
+.c-nav .navbar-nav .nav-item .c-nav--active:before{
+    width: 25px;
+}
+.c-nav .navbar-nav .nav-item:hover .nav-link:before {
+    width: 25px;
 }
 
 @media only screen and (max-width: 991px){
-    .c-nav--fixed {
+    .c-nav {
     background: #252525;
 }}

@@ -15,3 +15,11 @@
     background: #fff;
     color: #555;
 }
+.c-button:hover{
+    background: linear-gradient(to right, #DE2475, #FD4E31);
+
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}

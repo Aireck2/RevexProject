@@ -24,12 +24,16 @@
 
 }
 
-.c-section__business a {
-    padding: 12px 25px;
-    border-radius: 10px;
+.c-section__business button {
+    padding: 12px 22px;
+    border-radius: 5px;
     background: linear-gradient(to right, #FD4E31, #DE2475);
     color: white;
-    margin: 0 8px;
+    margin: 5px;
+    border: none;
+}
+.c-section__business button:hover {
+    background: linear-gradient(to right, #DE2475, #FD4E31 );
 }
 
 /*Acordeon*/
